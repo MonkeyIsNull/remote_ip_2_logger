@@ -16,7 +16,7 @@ defmodule RemoteIp2Logger do
 		options
   end
 
-  def call(conn, _opts) do
+  def call(conn, opts) do
     conn |> remote_ip_to_log()
   end
 
