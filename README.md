@@ -12,7 +12,7 @@ Add to your `mix.exs`
 ```elixir
 def deps do
   [
-    {:plug_remote_ip_2_logger, "~> 0.1.0"}
+    {:remote_ip_2_logger, "~> 0.1.0"}
   ]
 end
 ```
