@@ -3,6 +3,6 @@ defmodule RemoteIp2LoggerTest do
   doctest RemoteIp2Logger
 
   test "greets the world" do
-    assert RemoteIp2Logger.hello() == :world
+    # assert RemoteIp2Logger.hello() == :world
   end
 end

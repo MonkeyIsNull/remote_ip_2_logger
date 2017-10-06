@@ -1,4 +1,4 @@
-# PlugRemoteIp2Logger
+# RemoteIp2Logger
 
 ## Description
 
