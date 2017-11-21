@@ -28,7 +28,7 @@ defmodule MyApp do
 end
 ```
 
-And then add the `:remote_ip` to your Logger's metadata line:
+And then add the `:ip` to your Logger's metadata line:
 ```elixir
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
