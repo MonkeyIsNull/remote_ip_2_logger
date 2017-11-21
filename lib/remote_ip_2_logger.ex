@@ -9,8 +9,6 @@ defmodule RemoteIp2Logger do
   """
 
   require Logger
-  #  alias Plug.Conn
-  #@behaviour Plug
   import Plug.Conn
 
   def init(options) do
