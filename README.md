@@ -32,5 +32,5 @@ And then add the `:remote_ip` to your Logger's metadata line:
 ```elixir
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
-  metadata: [:remote_ip, :request_id, :module, :function, :line]
+  metadata: [:ip, :request_id, :module, :function, :line]
 ```
