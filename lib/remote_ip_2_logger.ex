@@ -27,7 +27,7 @@ defmodule RemoteIp2Logger do
   end
 
   defp set_remote_ip_on_log(conn, remote_ip) do
-    Logger.metadata(remote_ip: remote_ip)
+    Logger.metadata(ip: remote_ip)
 		conn
   end
 end
